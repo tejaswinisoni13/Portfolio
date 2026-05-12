@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background-color: #f2f4f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.profile-header {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.profile-header h1 {
+    font-size: 36px;
+}
+
+.profile-header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Sections */
+.section {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.light-bg {
+    background-color: #ffffff;
+}
+
+/* Headings */
+h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Profile Details */
+.profile-details p {
+    margin-bottom: 8px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Experience */
+.company {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
